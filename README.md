@@ -1,5 +1,6 @@
 # Assignment: UID
 
+
 As the team lead for a new corporate system, you've decided the standard UUID (universally unique id) format creates numbers too large (256 bit). Instead, you want to follow the Instagram UID model and create 63-bit numbers -- the signed BIGINT size in many relational databases. Using 63 bits, the maximum integer is 2^63: 9,223,372,036,854,775,807. The benefit and drawback of these IDs is they encode when and where they were created.
 
 As a unique ID, the UID must be unique in both space and time to allow any computer to create unique IDs in soluation -- without having to verify uniqueness with any other ocmputer. To this purpose, you'll assign the 63 bits as follows:
@@ -115,9 +116,3 @@ project/
 ```
 
 
-
-## Submitting the Assignment
-
-Submit via the Grading Engine. You can submit up to three times; your highest grade will be entered into the gradebook on Learning Suite.
-
-The grading engine will create at least two processes, so be sure to try with different SHARD_ID values.
